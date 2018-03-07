@@ -1,0 +1,935 @@
+
+2017-02-10 10:21:54,054 INFO  [Log] Opening Browser 
+2017-02-10 10:21:57,695 INFO  [Log] RunMode for test case TC_1.001_Validate Customer Search Record  Screen and Search by Customer Code is No 
+2017-02-10 10:21:57,698 INFO  [Log] RunMode for test case TC_1.002_Validation for Customers own reference number is No 
+2017-02-10 10:21:57,698 INFO  [Log] RunMode for test case TC_1.003_Validation for COR number length is No 
+2017-02-10 10:21:57,698 INFO  [Log] RunMode for test case TC_1.004_Search for a customer message from create screen is No 
+2017-02-10 10:21:57,698 INFO  [Log] RunMode for test case TC_1.005_Create new customer is No 
+2017-02-10 10:21:57,699 INFO  [Log] RunMode for test case TC_1.006_checking create record page contains all the fields is No 
+2017-02-10 10:21:57,699 INFO  [Log] RunMode for test case TC_1.007_Region  Present Country postal code  Search is No 
+2017-02-10 10:21:57,699 INFO  [Log] RunMode for test case TC_1.008_create customer page  Back Arrow message is No 
+2017-02-10 10:21:57,699 INFO  [Log] RunMode for test case TC_1.009_Edit customer from create customer screen is Yes 
+2017-02-10 10:21:57,699 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:21:57,699 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:21:57,699 INFO  [Log] -------------------------- TC_1.009_Edit customer from create customer screen--------------------------- 
+2017-02-10 10:21:57,699 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:21:57,699 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:21:57,703 INFO  [Log] Executing null which is (110) line of Test Steps sheet 
+2017-02-10 10:21:57,703 INFO  [Log] Navigating to the site 
+2017-02-10 10:22:04,279 INFO  [Log] Open CMD Application Passed 
+2017-02-10 10:22:04,430 INFO  [Log] Executing Open CMD Application which is (111) line of Test Steps sheet 
+2017-02-10 10:22:04,430 INFO  [Log] Clicking on Web Element btn_SearchCust 
+2017-02-10 10:22:06,672 INFO  [Log] click on Search for a Customer
+ button Passed 
+2017-02-10 10:22:06,754 INFO  [Log] Executing click on Search for a Customer
+ button which is (112) line of Test Steps sheet 
+2017-02-10 10:22:06,754 INFO  [Log] Entering the text in txtbx_UniqueCustCode 
+2017-02-10 10:22:07,078 INFO  [Log] Enter  Unique Customer Code Passed 
+2017-02-10 10:22:07,128 INFO  [Log] Executing Enter  Unique Customer Code which is (113) line of Test Steps sheet 
+2017-02-10 10:22:07,128 INFO  [Log] Clicking on Web Element btn_SearchUniqueCode 
+2017-02-10 10:22:13,727 INFO  [Log] click Search button Passed 
+2017-02-10 10:22:13,791 INFO  [Log] Executing click Search button which is (114) line of Test Steps sheet 
+2017-02-10 10:22:13,792 INFO  [Log] Clicking on Web Element btn_create_new_record 
+2017-02-10 10:22:16,965 INFO  [Log] Click Create a new record Passed 
+2017-02-10 10:22:17,021 INFO  [Log] Executing Click Create a new record which is (115) line of Test Steps sheet 
+2017-02-10 10:22:17,021 INFO  [Log] Entering the text in createrecord_enter_trading_name 
+2017-02-10 10:22:17,286 INFO  [Log] Enter Trading Name Passed 
+2017-02-10 10:22:17,331 INFO  [Log] Executing Enter Trading Name which is (116) line of Test Steps sheet 
+2017-02-10 10:22:17,331 INFO  [Log] Waiting for the page to load after invisibility of the grey screen... 
+2017-02-10 10:22:27,493 INFO  [Log] wait Passed 
+2017-02-10 10:22:27,540 INFO  [Log] Executing wait which is (117) line of Test Steps sheet 
+2017-02-10 10:22:27,540 INFO  [Log] Entering the text in createrecord_country_name 
+2017-02-10 10:22:27,681 INFO  [Log] Enter Country Passed 
+2017-02-10 10:22:27,714 INFO  [Log] Executing Enter Country which is (118) line of Test Steps sheet 
+2017-02-10 10:22:27,715 INFO  [Log] Selecting the option from createrecord_sgstn_country_denmark 
+2017-02-10 10:22:30,933 INFO  [Log] selecting option from suggestionlist Passed 
+2017-02-10 10:22:30,966 INFO  [Log] Executing selecting option from suggestionlist which is (119) line of Test Steps sheet 
+2017-02-10 10:22:30,966 INFO  [Log] Waiting for the page to load after invisibility of the grey screen... 
+2017-02-10 10:22:42,088 INFO  [Log] wait Passed 
+2017-02-10 10:22:42,147 INFO  [Log] Executing wait which is (120) line of Test Steps sheet 
+2017-02-10 10:22:42,147 INFO  [Log] Entering the text in createrecord_city_name 
+2017-02-10 10:22:42,234 INFO  [Log] Enter City Passed 
+2017-02-10 10:22:42,269 INFO  [Log] Executing Enter City which is (121) line of Test Steps sheet 
+2017-02-10 10:22:42,269 INFO  [Log] wait for some time Passed 
+2017-02-10 10:22:42,299 INFO  [Log] Executing wait for some time which is (122) line of Test Steps sheet 
+2017-02-10 10:22:42,299 INFO  [Log] Selecting the option from createrecord_sgstn_city_fakse 
+2017-02-10 10:22:45,426 INFO  [Log] selecting option from suggestionlist Passed 
+2017-02-10 10:22:45,456 INFO  [Log] Executing selecting option from suggestionlist which is (123) line of Test Steps sheet 
+2017-02-10 10:22:45,456 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:22:48,957 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:22:49,008 INFO  [Log] Executing wait for the page to load which is (124) line of Test Steps sheet 
+2017-02-10 10:22:49,008 INFO  [Log] Entering the text in createrecord_street_name 
+2017-02-10 10:22:49,079 INFO  [Log] Enter Street Name Passed 
+2017-02-10 10:22:49,110 INFO  [Log] Executing Enter Street Name which is (125) line of Test Steps sheet 
+2017-02-10 10:22:49,110 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:22:52,610 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:22:52,686 INFO  [Log] Executing wait for the page to load which is (126) line of Test Steps sheet 
+2017-02-10 10:22:52,686 INFO  [Log] Entering the text in createrecord_postal_code 
+2017-02-10 10:22:52,761 INFO  [Log] Enter Postal Code Passed 
+2017-02-10 10:22:52,791 INFO  [Log] Executing Enter Postal Code which is (127) line of Test Steps sheet 
+2017-02-10 10:22:52,791 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:22:56,291 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:22:56,334 INFO  [Log] Executing wait for the page to load which is (128) line of Test Steps sheet 
+2017-02-10 10:22:56,335 INFO  [Log] Clicking on Web Element createrecord_btn_click_lookup_address 
+2017-02-10 10:22:56,421 INFO  [Log] Click Look Up Address Passed 
+2017-02-10 10:22:56,451 INFO  [Log] Executing Click Look Up Address which is (129) line of Test Steps sheet 
+2017-02-10 10:22:56,452 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:22:59,953 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:23:00,004 INFO  [Log] Executing wait for the page to load which is (130) line of Test Steps sheet 
+2017-02-10 10:23:00,004 INFO  [Log] Clicking on Web Element createrecord_btn-clcik_select 
+2017-02-10 10:23:01,682 INFO  [Log] D:\KT Softwares\MLIT_Portal_KDF\MLIT_Portal_KDF\Screenshots\Failed\102301_10022017.png 
+2017-02-10 10:23:01,879 ERROR [Log] Not able to click --- Element is not clickable at point (703.2333374023438, 178.0500030517578). Other element would receive the click: <div class="modal fade" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-hidden="true" style="padding-top: 15%; overflow-y: visible; display: block; padding-right: 17px;"></div>
+Command duration or timeout: 201 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'G848DTRV', ip: '10.91.74.76', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9c4e9b63-13a5-41c5-bcf6-82db7c50a4e6 
+2017-02-10 10:23:01,879 ERROR [Log] Click Select Failed 
+2017-02-10 10:23:01,908 INFO  [Log] TC_1.009_Edit customer from create customer screen Failed 
+2017-02-10 10:23:01,938 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-10 10:23:01,938 INFO  [Log] X 
+2017-02-10 10:23:02,149 INFO  [Log] RunMode for test case TC_1.010_Return search and going forward in search is Yes 
+2017-02-10 10:23:02,149 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:23:02,149 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:23:02,149 INFO  [Log] -------------------------- TC_1.010_Return search and going forward in search--------------------------- 
+2017-02-10 10:23:02,149 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:23:02,149 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:23:02,151 INFO  [Log] Executing Click Select which is (140) line of Test Steps sheet 
+2017-02-10 10:23:02,151 INFO  [Log] Navigating to the site 
+2017-02-10 10:23:02,201 INFO  [Log] Open CMD Application Passed 
+2017-02-10 10:23:02,235 INFO  [Log] Executing Open CMD Application which is (141) line of Test Steps sheet 
+2017-02-10 10:23:02,235 INFO  [Log] Clicking on Web Element btn_SearchCust 
+2017-02-10 10:23:02,268 INFO  [Log] D:\KT Softwares\MLIT_Portal_KDF\MLIT_Portal_KDF\Screenshots\Failed\102302_10022017.png 
+2017-02-10 10:23:02,389 ERROR [Log] Not able to click --- Unexpected modal dialog (text: This page is asking you to confirm that you want to leave - data you have entered may not be saved.): This page is asking you to confirm that you want to leave - data you have entered may not be saved.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'G848DTRV', ip: '10.91.74.76', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9c4e9b63-13a5-41c5-bcf6-82db7c50a4e6
+*** Element info: {Using=xpath, value=//div[@class='col-xs-12']/a[@id='landingSearchButtonId'] } 
+2017-02-10 10:23:02,389 ERROR [Log] click on Search for a Customer
+ button Failed 
+2017-02-10 10:23:02,420 INFO  [Log] TC_1.010_Return search and going forward in search Failed 
+2017-02-10 10:23:02,449 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-10 10:23:02,449 INFO  [Log] X 
+2017-02-10 10:23:02,474 INFO  [Log] Closing the browser 
+2017-02-10 10:26:22,709 INFO  [Log] Opening Browser 
+2017-02-10 10:26:26,184 INFO  [Log] RunMode for test case TC_1.001_Validate Customer Search Record  Screen and Search by Customer Code is No 
+2017-02-10 10:26:26,186 INFO  [Log] RunMode for test case TC_1.002_Validation for Customers own reference number is No 
+2017-02-10 10:26:26,187 INFO  [Log] RunMode for test case TC_1.003_Validation for COR number length is No 
+2017-02-10 10:26:26,187 INFO  [Log] RunMode for test case TC_1.004_Search for a customer message from create screen is No 
+2017-02-10 10:26:26,187 INFO  [Log] RunMode for test case TC_1.005_Create new customer is No 
+2017-02-10 10:26:26,187 INFO  [Log] RunMode for test case TC_1.006_checking create record page contains all the fields is No 
+2017-02-10 10:26:26,188 INFO  [Log] RunMode for test case TC_1.007_Region  Present Country postal code  Search is No 
+2017-02-10 10:26:26,188 INFO  [Log] RunMode for test case TC_1.008_create customer page  Back Arrow message is No 
+2017-02-10 10:26:26,188 INFO  [Log] RunMode for test case TC_1.009_Edit customer from create customer screen is Yes 
+2017-02-10 10:26:26,188 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:26:26,188 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:26:26,188 INFO  [Log] -------------------------- TC_1.009_Edit customer from create customer screen--------------------------- 
+2017-02-10 10:26:26,188 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:26:26,188 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:26:26,193 INFO  [Log] Executing null which is (110) line of Test Steps sheet 
+2017-02-10 10:26:26,193 INFO  [Log] Navigating to the site 
+2017-02-10 10:26:31,576 INFO  [Log] Open CMD Application Passed 
+2017-02-10 10:26:31,766 INFO  [Log] Executing Open CMD Application which is (111) line of Test Steps sheet 
+2017-02-10 10:26:31,767 INFO  [Log] Clicking on Web Element btn_SearchCust 
+2017-02-10 10:26:33,921 INFO  [Log] click on Search for a Customer
+ button Passed 
+2017-02-10 10:26:33,989 INFO  [Log] Executing click on Search for a Customer
+ button which is (112) line of Test Steps sheet 
+2017-02-10 10:26:33,989 INFO  [Log] Entering the text in txtbx_UniqueCustCode 
+2017-02-10 10:26:34,303 INFO  [Log] Enter  Unique Customer Code Passed 
+2017-02-10 10:26:34,360 INFO  [Log] Executing Enter  Unique Customer Code which is (113) line of Test Steps sheet 
+2017-02-10 10:26:34,360 INFO  [Log] Clicking on Web Element btn_SearchUniqueCode 
+2017-02-10 10:26:36,126 INFO  [Log] click Search button Passed 
+2017-02-10 10:26:36,164 INFO  [Log] Executing click Search button which is (114) line of Test Steps sheet 
+2017-02-10 10:26:36,164 INFO  [Log] Clicking on Web Element btn_create_new_record 
+2017-02-10 10:26:40,207 INFO  [Log] Click Create a new record Passed 
+2017-02-10 10:26:40,263 INFO  [Log] Executing Click Create a new record which is (115) line of Test Steps sheet 
+2017-02-10 10:26:40,263 INFO  [Log] Entering the text in createrecord_enter_trading_name 
+2017-02-10 10:26:40,573 INFO  [Log] Enter Trading Name Passed 
+2017-02-10 10:26:40,618 INFO  [Log] Executing Enter Trading Name which is (116) line of Test Steps sheet 
+2017-02-10 10:26:40,618 INFO  [Log] Waiting for the page to load after invisibility of the grey screen... 
+2017-02-10 10:26:50,712 INFO  [Log] wait Passed 
+2017-02-10 10:26:50,762 INFO  [Log] Executing wait which is (117) line of Test Steps sheet 
+2017-02-10 10:26:50,762 INFO  [Log] Entering the text in createrecord_country_name 
+2017-02-10 10:26:50,932 INFO  [Log] Enter Country Passed 
+2017-02-10 10:26:50,969 INFO  [Log] Executing Enter Country which is (118) line of Test Steps sheet 
+2017-02-10 10:26:50,969 INFO  [Log] Selecting the option from createrecord_sgstn_country_denmark 
+2017-02-10 10:26:54,153 INFO  [Log] selecting option from suggestionlist Passed 
+2017-02-10 10:26:54,184 INFO  [Log] Executing selecting option from suggestionlist which is (119) line of Test Steps sheet 
+2017-02-10 10:26:54,184 INFO  [Log] Waiting for the page to load after invisibility of the grey screen... 
+2017-02-10 10:27:05,295 INFO  [Log] wait Passed 
+2017-02-10 10:27:05,346 INFO  [Log] Executing wait which is (120) line of Test Steps sheet 
+2017-02-10 10:27:05,347 INFO  [Log] Entering the text in createrecord_city_name 
+2017-02-10 10:27:05,433 INFO  [Log] Enter City Passed 
+2017-02-10 10:27:05,466 INFO  [Log] Executing Enter City which is (121) line of Test Steps sheet 
+2017-02-10 10:27:05,466 INFO  [Log] wait for some time Passed 
+2017-02-10 10:27:05,494 INFO  [Log] Executing wait for some time which is (122) line of Test Steps sheet 
+2017-02-10 10:27:05,494 INFO  [Log] Selecting the option from createrecord_sgstn_city_fakse 
+2017-02-10 10:27:08,636 INFO  [Log] selecting option from suggestionlist Passed 
+2017-02-10 10:27:08,665 INFO  [Log] Executing selecting option from suggestionlist which is (123) line of Test Steps sheet 
+2017-02-10 10:27:08,665 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:27:12,165 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:27:12,227 INFO  [Log] Executing wait for the page to load which is (124) line of Test Steps sheet 
+2017-02-10 10:27:12,227 INFO  [Log] Entering the text in createrecord_street_name 
+2017-02-10 10:27:12,299 INFO  [Log] Enter Street Name Passed 
+2017-02-10 10:27:12,330 INFO  [Log] Executing Enter Street Name which is (125) line of Test Steps sheet 
+2017-02-10 10:27:12,330 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:27:15,830 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:27:15,917 INFO  [Log] Executing wait for the page to load which is (126) line of Test Steps sheet 
+2017-02-10 10:27:15,919 INFO  [Log] Entering the text in createrecord_postal_code 
+2017-02-10 10:27:15,986 INFO  [Log] Enter Postal Code Passed 
+2017-02-10 10:27:16,015 INFO  [Log] Executing Enter Postal Code which is (127) line of Test Steps sheet 
+2017-02-10 10:27:16,015 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:27:19,516 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:27:19,547 INFO  [Log] Executing wait for the page to load which is (128) line of Test Steps sheet 
+2017-02-10 10:27:19,548 INFO  [Log] Clicking on Web Element createrecord_btn_click_lookup_address 
+2017-02-10 10:27:19,626 INFO  [Log] Click Look Up Address Passed 
+2017-02-10 10:27:19,665 INFO  [Log] Executing Click Look Up Address which is (129) line of Test Steps sheet 
+2017-02-10 10:27:19,665 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:27:23,165 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:27:23,250 INFO  [Log] Executing wait for the page to load which is (130) line of Test Steps sheet 
+2017-02-10 10:27:23,250 INFO  [Log] Clicking on Web Element createrecord_btn-clcik_select 
+2017-02-10 10:27:23,340 INFO  [Log] Click Select Passed 
+2017-02-10 10:27:23,370 INFO  [Log] Executing Click Select which is (131) line of Test Steps sheet 
+2017-02-10 10:27:23,370 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:27:26,870 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:27:26,935 INFO  [Log] Executing wait for the page to load which is (132) line of Test Steps sheet 
+2017-02-10 10:27:26,936 INFO  [Log] Clicking on Web Element createrecord_editaddress_bttn 
+2017-02-10 10:27:27,006 INFO  [Log] Click edit record button Passed 
+2017-02-10 10:27:27,034 INFO  [Log] Executing Click edit record button which is (133) line of Test Steps sheet 
+2017-02-10 10:27:27,034 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:27:30,535 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:27:30,596 INFO  [Log] Executing wait for the page to load which is (134) line of Test Steps sheet 
+2017-02-10 10:27:30,596 INFO  [Log] Clicking on Web Element createrecord_continue_bttn 
+2017-02-10 10:27:30,673 INFO  [Log] click continue button Passed 
+2017-02-10 10:27:30,700 INFO  [Log] Executing click continue button which is (135) line of Test Steps sheet 
+2017-02-10 10:27:30,701 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:27:34,201 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:27:34,247 INFO  [Log] Executing wait for the page to load which is (136) line of Test Steps sheet 
+2017-02-10 10:27:34,247 INFO  [Log] Clicking on Web Element createrecord_confirm_box 
+2017-02-10 10:27:34,327 INFO  [Log] click confirm Passed 
+2017-02-10 10:27:34,353 INFO  [Log] Executing click confirm which is (137) line of Test Steps sheet 
+2017-02-10 10:27:34,354 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:27:37,854 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:27:37,917 INFO  [Log] Executing wait for the page to load which is (138) line of Test Steps sheet 
+2017-02-10 10:27:37,917 INFO  [Log] Clicking on Web Element createrecord_submit_record 
+2017-02-10 10:27:38,008 INFO  [Log] click continue button Passed 
+2017-02-10 10:27:38,034 INFO  [Log] Executing click continue button which is (139) line of Test Steps sheet 
+2017-02-10 10:27:38,034 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:27:41,534 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:27:41,594 INFO  [Log] TC_1.009_Edit customer from create customer screen passed 
+2017-02-10 10:27:41,627 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-10 10:27:41,628 INFO  [Log] X 
+2017-02-10 10:27:41,828 INFO  [Log] RunMode for test case TC_1.010_Return search and going forward in search is Yes 
+2017-02-10 10:27:41,828 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:27:41,828 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:27:41,828 INFO  [Log] -------------------------- TC_1.010_Return search and going forward in search--------------------------- 
+2017-02-10 10:27:41,828 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:27:41,828 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:27:41,830 INFO  [Log] Executing wait for the page to load which is (140) line of Test Steps sheet 
+2017-02-10 10:27:41,830 INFO  [Log] Navigating to the site 
+2017-02-10 10:27:41,893 INFO  [Log] Open CMD Application Passed 
+2017-02-10 10:27:41,934 INFO  [Log] Executing Open CMD Application which is (141) line of Test Steps sheet 
+2017-02-10 10:27:41,934 INFO  [Log] Clicking on Web Element btn_SearchCust 
+2017-02-10 10:27:41,965 INFO  [Log] D:\KT Softwares\MLIT_Portal_KDF\MLIT_Portal_KDF\Screenshots\Failed\102741_10022017.png 
+2017-02-10 10:27:42,132 ERROR [Log] Not able to click --- Unexpected modal dialog (text: This page is asking you to confirm that you want to leave - data you have entered may not be saved.): This page is asking you to confirm that you want to leave - data you have entered may not be saved.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'G848DTRV', ip: '10.91.74.76', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6e936c2b-fd68-4a39-8b73-98d597542d4e
+*** Element info: {Using=xpath, value=//div[@class='col-xs-12']/a[@id='landingSearchButtonId'] } 
+2017-02-10 10:27:42,132 ERROR [Log] click on Search for a Customer
+ button Failed 
+2017-02-10 10:27:42,160 INFO  [Log] TC_1.010_Return search and going forward in search Failed 
+2017-02-10 10:27:42,187 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-10 10:27:42,187 INFO  [Log] X 
+2017-02-10 10:27:42,219 INFO  [Log] Closing the browser 
+2017-02-10 10:30:06,366 INFO  [Log] Opening Browser 
+2017-02-10 10:30:09,769 INFO  [Log] RunMode for test case TC_1.001_Validate Customer Search Record  Screen and Search by Customer Code is No 
+2017-02-10 10:30:09,771 INFO  [Log] RunMode for test case TC_1.002_Validation for Customers own reference number is No 
+2017-02-10 10:30:09,772 INFO  [Log] RunMode for test case TC_1.003_Validation for COR number length is No 
+2017-02-10 10:30:09,772 INFO  [Log] RunMode for test case TC_1.004_Search for a customer message from create screen is No 
+2017-02-10 10:30:09,772 INFO  [Log] RunMode for test case TC_1.005_Create new customer is No 
+2017-02-10 10:30:09,772 INFO  [Log] RunMode for test case TC_1.006_checking create record page contains all the fields is No 
+2017-02-10 10:30:09,772 INFO  [Log] RunMode for test case TC_1.007_Region  Present Country postal code  Search is No 
+2017-02-10 10:30:09,773 INFO  [Log] RunMode for test case TC_1.008_create customer page  Back Arrow message is No 
+2017-02-10 10:30:09,773 INFO  [Log] RunMode for test case TC_1.009_Edit customer from create customer screen is Yes 
+2017-02-10 10:30:09,773 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:30:09,773 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:30:09,773 INFO  [Log] -------------------------- TC_1.009_Edit customer from create customer screen--------------------------- 
+2017-02-10 10:30:09,773 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:30:09,773 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:30:09,779 INFO  [Log] Executing null which is (110) line of Test Steps sheet 
+2017-02-10 10:30:09,779 INFO  [Log] Navigating to the site 
+2017-02-10 10:30:24,681 INFO  [Log] Open CMD Application Passed 
+2017-02-10 10:30:24,861 INFO  [Log] Executing Open CMD Application which is (111) line of Test Steps sheet 
+2017-02-10 10:30:24,862 INFO  [Log] Clicking on Web Element btn_SearchCust 
+2017-02-10 10:30:26,977 INFO  [Log] click on Search for a Customer
+ button Passed 
+2017-02-10 10:30:27,057 INFO  [Log] Executing click on Search for a Customer
+ button which is (112) line of Test Steps sheet 
+2017-02-10 10:30:27,057 INFO  [Log] Entering the text in txtbx_UniqueCustCode 
+2017-02-10 10:30:27,331 INFO  [Log] Enter  Unique Customer Code Passed 
+2017-02-10 10:30:27,402 INFO  [Log] Executing Enter  Unique Customer Code which is (113) line of Test Steps sheet 
+2017-02-10 10:30:27,403 INFO  [Log] Clicking on Web Element btn_SearchUniqueCode 
+2017-02-10 10:30:30,007 INFO  [Log] click Search button Passed 
+2017-02-10 10:30:30,052 INFO  [Log] Executing click Search button which is (114) line of Test Steps sheet 
+2017-02-10 10:30:30,053 INFO  [Log] Clicking on Web Element btn_create_new_record 
+2017-02-10 10:30:33,198 INFO  [Log] Click Create a new record Passed 
+2017-02-10 10:30:33,239 INFO  [Log] Executing Click Create a new record which is (115) line of Test Steps sheet 
+2017-02-10 10:30:33,239 INFO  [Log] Entering the text in createrecord_enter_trading_name 
+2017-02-10 10:30:33,502 INFO  [Log] Enter Trading Name Passed 
+2017-02-10 10:30:33,535 INFO  [Log] Executing Enter Trading Name which is (116) line of Test Steps sheet 
+2017-02-10 10:30:33,535 INFO  [Log] Waiting for the page to load after invisibility of the grey screen... 
+2017-02-10 10:30:43,664 INFO  [Log] wait Passed 
+2017-02-10 10:30:43,722 INFO  [Log] Executing wait which is (117) line of Test Steps sheet 
+2017-02-10 10:30:43,722 INFO  [Log] Entering the text in createrecord_country_name 
+2017-02-10 10:30:43,856 INFO  [Log] Enter Country Passed 
+2017-02-10 10:30:43,890 INFO  [Log] Executing Enter Country which is (118) line of Test Steps sheet 
+2017-02-10 10:30:43,890 INFO  [Log] Selecting the option from createrecord_sgstn_country_denmark 
+2017-02-10 10:30:47,094 INFO  [Log] selecting option from suggestionlist Passed 
+2017-02-10 10:30:47,125 INFO  [Log] Executing selecting option from suggestionlist which is (119) line of Test Steps sheet 
+2017-02-10 10:30:47,125 INFO  [Log] Waiting for the page to load after invisibility of the grey screen... 
+2017-02-10 10:30:58,312 INFO  [Log] wait Passed 
+2017-02-10 10:30:58,368 INFO  [Log] Executing wait which is (120) line of Test Steps sheet 
+2017-02-10 10:30:58,368 INFO  [Log] Entering the text in createrecord_city_name 
+2017-02-10 10:30:58,450 INFO  [Log] Enter City Passed 
+2017-02-10 10:30:58,480 INFO  [Log] Executing Enter City which is (121) line of Test Steps sheet 
+2017-02-10 10:30:58,481 INFO  [Log] wait for some time Passed 
+2017-02-10 10:30:58,518 INFO  [Log] Executing wait for some time which is (122) line of Test Steps sheet 
+2017-02-10 10:30:58,519 INFO  [Log] Selecting the option from createrecord_sgstn_city_fakse 
+2017-02-10 10:31:01,653 INFO  [Log] selecting option from suggestionlist Passed 
+2017-02-10 10:31:01,682 INFO  [Log] Executing selecting option from suggestionlist which is (123) line of Test Steps sheet 
+2017-02-10 10:31:01,682 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:31:05,183 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:31:05,255 INFO  [Log] Executing wait for the page to load which is (124) line of Test Steps sheet 
+2017-02-10 10:31:05,256 INFO  [Log] Entering the text in createrecord_street_name 
+2017-02-10 10:31:05,323 INFO  [Log] Enter Street Name Passed 
+2017-02-10 10:31:05,371 INFO  [Log] Executing Enter Street Name which is (125) line of Test Steps sheet 
+2017-02-10 10:31:05,371 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:31:08,872 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:31:08,944 INFO  [Log] Executing wait for the page to load which is (126) line of Test Steps sheet 
+2017-02-10 10:31:08,944 INFO  [Log] Entering the text in createrecord_postal_code 
+2017-02-10 10:31:09,007 INFO  [Log] Enter Postal Code Passed 
+2017-02-10 10:31:09,034 INFO  [Log] Executing Enter Postal Code which is (127) line of Test Steps sheet 
+2017-02-10 10:31:09,035 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:31:12,535 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:31:12,594 INFO  [Log] Executing wait for the page to load which is (128) line of Test Steps sheet 
+2017-02-10 10:31:12,595 INFO  [Log] Clicking on Web Element createrecord_btn_click_lookup_address 
+2017-02-10 10:31:12,683 INFO  [Log] Click Look Up Address Passed 
+2017-02-10 10:31:12,711 INFO  [Log] Executing Click Look Up Address which is (129) line of Test Steps sheet 
+2017-02-10 10:31:12,712 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:31:16,212 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:31:16,268 INFO  [Log] Executing wait for the page to load which is (130) line of Test Steps sheet 
+2017-02-10 10:31:16,268 INFO  [Log] Clicking on Web Element createrecord_btn-clcik_select 
+2017-02-10 10:31:16,350 INFO  [Log] Click Select Passed 
+2017-02-10 10:31:16,379 INFO  [Log] Executing Click Select which is (131) line of Test Steps sheet 
+2017-02-10 10:31:16,379 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:31:19,880 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:31:19,956 INFO  [Log] Executing wait for the page to load which is (132) line of Test Steps sheet 
+2017-02-10 10:31:19,956 INFO  [Log] Clicking on Web Element createrecord_editaddress_bttn 
+2017-02-10 10:31:20,033 INFO  [Log] Click edit record button Passed 
+2017-02-10 10:31:20,061 INFO  [Log] Executing Click edit record button which is (133) line of Test Steps sheet 
+2017-02-10 10:31:20,061 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:31:23,561 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:31:23,635 INFO  [Log] Executing wait for the page to load which is (134) line of Test Steps sheet 
+2017-02-10 10:31:23,635 INFO  [Log] Clicking on Web Element createrecord_continue_bttn 
+2017-02-10 10:31:23,714 INFO  [Log] click continue button Passed 
+2017-02-10 10:31:23,741 INFO  [Log] Executing click continue button which is (135) line of Test Steps sheet 
+2017-02-10 10:31:23,741 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:31:27,241 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:31:27,301 INFO  [Log] Executing wait for the page to load which is (136) line of Test Steps sheet 
+2017-02-10 10:31:27,301 INFO  [Log] Clicking on Web Element createrecord_confirm_box 
+2017-02-10 10:31:27,380 INFO  [Log] click confirm Passed 
+2017-02-10 10:31:27,407 INFO  [Log] Executing click confirm which is (137) line of Test Steps sheet 
+2017-02-10 10:31:27,407 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:31:30,908 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:31:30,969 INFO  [Log] Executing wait for the page to load which is (138) line of Test Steps sheet 
+2017-02-10 10:31:30,969 INFO  [Log] Clicking on Web Element createrecord_submit_record 
+2017-02-10 10:31:31,058 INFO  [Log] click continue button Passed 
+2017-02-10 10:31:31,085 INFO  [Log] Executing click continue button which is (139) line of Test Steps sheet 
+2017-02-10 10:31:31,085 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:31:34,585 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:31:34,647 INFO  [Log] Executing wait for the page to load which is (140) line of Test Steps sheet 
+2017-02-10 10:31:40,054 INFO  [Log] verify whether the successful record submission is coming Passed 
+2017-02-10 10:31:40,083 INFO  [Log] TC_1.009_Edit customer from create customer screen passed 
+2017-02-10 10:31:40,110 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-10 10:31:40,110 INFO  [Log] X 
+2017-02-10 10:31:40,309 INFO  [Log] RunMode for test case TC_1.010_Return search and going forward in search is Yes 
+2017-02-10 10:31:40,309 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:31:40,310 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:31:40,310 INFO  [Log] -------------------------- TC_1.010_Return search and going forward in search--------------------------- 
+2017-02-10 10:31:40,310 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:31:40,310 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:31:40,311 INFO  [Log] Executing verify whether the successful record submission is coming which is (141) line of Test Steps sheet 
+2017-02-10 10:31:40,311 INFO  [Log] Navigating to the site 
+2017-02-10 10:31:41,093 INFO  [Log] Open CMD Application Passed 
+2017-02-10 10:31:41,122 INFO  [Log] Executing Open CMD Application which is (142) line of Test Steps sheet 
+2017-02-10 10:31:41,122 INFO  [Log] Clicking on Web Element btn_SearchCust 
+2017-02-10 10:31:41,899 INFO  [Log] click on Search for a Customer
+ button Passed 
+2017-02-10 10:31:41,931 INFO  [Log] Executing click on Search for a Customer
+ button which is (143) line of Test Steps sheet 
+2017-02-10 10:31:41,931 INFO  [Log] Entering the text in txtbx_UniqueCustCode 
+2017-02-10 10:31:42,211 INFO  [Log] Enter  Unique Customer Code Passed 
+2017-02-10 10:31:42,236 INFO  [Log] Executing Enter  Unique Customer Code which is (144) line of Test Steps sheet 
+2017-02-10 10:31:42,236 INFO  [Log] Clicking on Web Element btn_SearchUniqueCode 
+2017-02-10 10:31:42,907 INFO  [Log] click Search button Passed 
+2017-02-10 10:31:42,930 INFO  [Log] Executing click Search button which is (145) line of Test Steps sheet 
+2017-02-10 10:31:42,931 INFO  [Log] Clicking on Web Element searchrecord_backbutton 
+2017-02-10 10:31:43,931 INFO  [Log] Go back from this page Passed 
+2017-02-10 10:31:43,960 INFO  [Log] Executing Go back from this page which is (146) line of Test Steps sheet 
+2017-02-10 10:31:43,960 INFO  [Log] Clicking on Web Element btn_SearchUniqueCode 
+2017-02-10 10:31:45,353 INFO  [Log] click Search button Passed 
+2017-02-10 10:31:45,394 INFO  [Log] Executing click Search button which is (147) line of Test Steps sheet 
+2017-02-10 10:31:45,395 INFO  [Log] Clicking on Web Element btn_create_new_record 
+2017-02-10 10:31:46,377 INFO  [Log] Give create new record Passed 
+2017-02-10 10:31:46,404 INFO  [Log] Executing Give create new record which is (148) line of Test Steps sheet 
+2017-02-10 10:31:46,624 INFO  [Log] verify whether the country text box is there Passed 
+2017-02-10 10:31:46,647 INFO  [Log] TC_1.010_Return search and going forward in search passed 
+2017-02-10 10:31:46,672 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-10 10:31:46,672 INFO  [Log] X 
+2017-02-10 10:31:46,696 INFO  [Log] Closing the browser 
+2017-02-10 10:33:17,344 INFO  [Log] Opening Browser 
+2017-02-10 10:33:20,748 INFO  [Log] RunMode for test case TC_1.001_Validate Customer Search Record  Screen and Search by Customer Code is Yes 
+2017-02-10 10:33:20,750 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:33:20,750 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:33:20,750 INFO  [Log] -------------------------- TC_1.001_Validate Customer Search Record  Screen and Search by Customer Code--------------------------- 
+2017-02-10 10:33:20,750 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:33:20,750 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:33:20,755 INFO  [Log] Executing null which is (1) line of Test Steps sheet 
+2017-02-10 10:33:20,755 INFO  [Log] Navigating to the site 
+2017-02-10 10:33:27,209 INFO  [Log] Navigate to CMD portal Passed 
+2017-02-10 10:33:27,437 INFO  [Log] Executing Navigate to CMD portal which is (2) line of Test Steps sheet 
+2017-02-10 10:33:27,438 INFO  [Log] Clicking on Web Element btn_SearchCust 
+2017-02-10 10:33:29,641 INFO  [Log] click Search for a Customer
+ button Passed 
+2017-02-10 10:33:29,701 INFO  [Log] Executing click Search for a Customer
+ button which is (3) line of Test Steps sheet 
+2017-02-10 10:33:29,701 INFO  [Log] Entering the text in txtbx_UniqueCustCode 
+2017-02-10 10:33:30,009 INFO  [Log] Give Unique Customer Code Passed 
+2017-02-10 10:33:30,059 INFO  [Log] Executing Give Unique Customer Code which is (4) line of Test Steps sheet 
+2017-02-10 10:33:30,059 INFO  [Log] Clicking on Web Element btn_SearchUniqueCode 
+2017-02-10 10:33:32,552 INFO  [Log] Click Search button  Passed 
+2017-02-10 10:33:32,597 INFO  [Log] Executing Click Search button  which is (5) line of Test Steps sheet 
+2017-02-10 10:33:32,597 INFO  [Log] Waiting for the page to load after invisibility of the grey screen... 
+2017-02-10 10:33:43,406 INFO  [Log] Wait for Page to Load Passed 
+2017-02-10 10:33:43,464 INFO  [Log] Executing Wait for Page to Load which is (6) line of Test Steps sheet 
+2017-02-10 10:33:43,494 INFO  [Log] Validate the Result Passed 
+2017-02-10 10:33:43,532 INFO  [Log] TC_1.001_Validate Customer Search Record  Screen and Search by Customer Code passed 
+2017-02-10 10:33:43,577 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-10 10:33:43,577 INFO  [Log] X 
+2017-02-10 10:33:43,743 INFO  [Log] RunMode for test case TC_1.002_Validation for Customers own reference number is Yes 
+2017-02-10 10:33:43,743 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:33:43,743 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:33:43,743 INFO  [Log] -------------------------- TC_1.002_Validation for Customers own reference number--------------------------- 
+2017-02-10 10:33:43,743 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:33:43,743 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:33:43,745 INFO  [Log] Executing Validate the Result which is (7) line of Test Steps sheet 
+2017-02-10 10:33:43,745 INFO  [Log] Navigating to the site 
+2017-02-10 10:33:44,415 INFO  [Log] Navigate to CMD portal Passed 
+2017-02-10 10:33:44,452 INFO  [Log] Executing Navigate to CMD portal which is (8) line of Test Steps sheet 
+2017-02-10 10:33:44,452 INFO  [Log] Clicking on Web Element btn_SearchCust 
+2017-02-10 10:33:45,447 INFO  [Log] click Search for a Customer
+ button Passed 
+2017-02-10 10:33:45,482 INFO  [Log] Executing click Search for a Customer
+ button which is (9) line of Test Steps sheet 
+2017-02-10 10:33:45,482 INFO  [Log] Selecting the option from dropbox_select_COR_type 
+2017-02-10 10:33:48,666 INFO  [Log] Select Customer Reference Type Passed 
+2017-02-10 10:33:48,701 INFO  [Log] Executing Select Customer Reference Type which is (10) line of Test Steps sheet 
+2017-02-10 10:33:48,701 INFO  [Log] Entering the text in enter_COR_number 
+2017-02-10 10:33:48,741 INFO  [Log] Enter the COR number Passed 
+2017-02-10 10:33:48,778 INFO  [Log] Executing Enter the COR number which is (11) line of Test Steps sheet 
+2017-02-10 10:33:48,778 INFO  [Log] Clicking on Web Element btn_Search_COR 
+2017-02-10 10:33:52,549 INFO  [Log] click search button Passed 
+2017-02-10 10:33:52,578 INFO  [Log] Executing click search button which is (12) line of Test Steps sheet 
+2017-02-10 10:33:52,578 INFO  [Log] Waiting for the page to load after invisibility of the grey screen... 
+2017-02-10 10:34:02,886 INFO  [Log] wait Passed 
+2017-02-10 10:34:02,929 INFO  [Log] Executing wait which is (13) line of Test Steps sheet 
+2017-02-10 10:34:02,960 INFO  [Log] Validate the COR number Passed 
+2017-02-10 10:34:02,988 INFO  [Log] Executing Validate the COR number which is (14) line of Test Steps sheet 
+2017-02-10 10:34:02,988 INFO  [Log] going back from current window  
+2017-02-10 10:34:03,018 INFO  [Log] Click on Back arrow on the browser Passed 
+2017-02-10 10:34:03,063 INFO  [Log] TC_1.002_Validation for Customers own reference number passed 
+2017-02-10 10:34:03,118 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-10 10:34:03,118 INFO  [Log] X 
+2017-02-10 10:34:03,169 INFO  [Log] RunMode for test case TC_1.003_Validation for COR number length is Yes 
+2017-02-10 10:34:03,169 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:34:03,169 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:34:03,169 INFO  [Log] -------------------------- TC_1.003_Validation for COR number length--------------------------- 
+2017-02-10 10:34:03,169 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:34:03,169 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:34:03,171 INFO  [Log] Executing Click on Back arrow on the browser which is (15) line of Test Steps sheet 
+2017-02-10 10:34:03,171 INFO  [Log] Navigating to the site 
+2017-02-10 10:34:04,456 INFO  [Log] Navigate to CMD portal Passed 
+2017-02-10 10:34:04,488 INFO  [Log] Executing Navigate to CMD portal which is (16) line of Test Steps sheet 
+2017-02-10 10:34:04,488 INFO  [Log] Clicking on Web Element btn_SearchCust 
+2017-02-10 10:34:05,304 INFO  [Log] click Search for a Customer
+ button Passed 
+2017-02-10 10:34:05,331 INFO  [Log] Executing click Search for a Customer
+ button which is (17) line of Test Steps sheet 
+2017-02-10 10:34:05,331 INFO  [Log] Selecting the option from dropbox_select_COR_type 
+2017-02-10 10:34:08,482 INFO  [Log] Select Customer Reference Type Passed 
+2017-02-10 10:34:08,525 INFO  [Log] Executing Select Customer Reference Type which is (18) line of Test Steps sheet 
+2017-02-10 10:34:08,525 INFO  [Log] Entering the text in enter_COR_number 
+2017-02-10 10:34:08,571 INFO  [Log] Enter the COR number Passed 
+2017-02-10 10:34:08,620 INFO  [Log] Executing Enter the COR number which is (19) line of Test Steps sheet 
+2017-02-10 10:34:08,647 INFO  [Log] Verify the Validation Passed 
+2017-02-10 10:34:08,672 INFO  [Log] TC_1.003_Validation for COR number length passed 
+2017-02-10 10:34:08,698 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-10 10:34:08,698 INFO  [Log] X 
+2017-02-10 10:34:08,716 INFO  [Log] RunMode for test case TC_1.004_Search for a customer message from create screen is Yes 
+2017-02-10 10:34:08,716 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:34:08,716 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:34:08,716 INFO  [Log] -------------------------- TC_1.004_Search for a customer message from create screen--------------------------- 
+2017-02-10 10:34:08,716 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:34:08,716 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:34:08,717 INFO  [Log] Executing Verify the Validation which is (20) line of Test Steps sheet 
+2017-02-10 10:34:08,717 INFO  [Log] Navigating to the site 
+2017-02-10 10:34:09,361 INFO  [Log] Open CMD Application Passed 
+2017-02-10 10:34:09,388 INFO  [Log] Executing Open CMD Application which is (21) line of Test Steps sheet 
+2017-02-10 10:34:09,388 INFO  [Log] Clicking on Web Element btn_SearchCust 
+2017-02-10 10:34:10,324 INFO  [Log] click on Search for a Customer
+ button Passed 
+2017-02-10 10:34:10,352 INFO  [Log] Executing click on Search for a Customer
+ button which is (22) line of Test Steps sheet 
+2017-02-10 10:34:10,352 INFO  [Log] Entering the text in txtbx_UniqueCustCode 
+2017-02-10 10:34:10,634 INFO  [Log] Enter  Unique Customer Code Passed 
+2017-02-10 10:34:10,660 INFO  [Log] Executing Enter  Unique Customer Code which is (23) line of Test Steps sheet 
+2017-02-10 10:34:10,660 INFO  [Log] Clicking on Web Element btn_SearchUniqueCode 
+2017-02-10 10:34:11,340 INFO  [Log] click Search button Passed 
+2017-02-10 10:34:11,370 INFO  [Log] Executing click Search button which is (24) line of Test Steps sheet 
+2017-02-10 10:34:11,370 INFO  [Log] Clicking on Web Element btn_create_new_record 
+2017-02-10 10:34:13,604 INFO  [Log] Click Create a new record Passed 
+2017-02-10 10:34:13,640 INFO  [Log] Executing Click Create a new record which is (25) line of Test Steps sheet 
+2017-02-10 10:34:13,640 INFO  [Log] Entering the text in createrecord_enter_trading_name 
+2017-02-10 10:34:13,940 INFO  [Log] Enter Trading Name Passed 
+2017-02-10 10:34:13,965 INFO  [Log] Executing Enter Trading Name which is (26) line of Test Steps sheet 
+2017-02-10 10:34:13,965 INFO  [Log] Entering the text in createrecord_country_name 
+2017-02-10 10:34:14,089 INFO  [Log] Enter Country Passed 
+2017-02-10 10:34:14,121 INFO  [Log] Executing Enter Country which is (27) line of Test Steps sheet 
+2017-02-10 10:34:14,122 INFO  [Log] Selecting the option from createrecord_sgstn_country_denmark 
+2017-02-10 10:34:17,260 INFO  [Log] selecting option from suggestionlist Passed 
+2017-02-10 10:34:17,285 INFO  [Log] Executing selecting option from suggestionlist which is (28) line of Test Steps sheet 
+2017-02-10 10:34:17,285 INFO  [Log] Waiting for the page to load after invisibility of the grey screen... 
+2017-02-10 10:34:28,480 INFO  [Log] wait Passed 
+2017-02-10 10:34:28,521 INFO  [Log] Executing wait which is (29) line of Test Steps sheet 
+2017-02-10 10:34:28,521 INFO  [Log] Entering the text in createrecord_city_name 
+2017-02-10 10:34:28,635 INFO  [Log] Enter City Passed 
+2017-02-10 10:34:28,661 INFO  [Log] Executing Enter City which is (30) line of Test Steps sheet 
+2017-02-10 10:34:28,661 INFO  [Log] wait for some time Passed 
+2017-02-10 10:34:28,685 INFO  [Log] Executing wait for some time which is (31) line of Test Steps sheet 
+2017-02-10 10:34:28,686 INFO  [Log] Selecting the option from createrecord_sgstn_city_slagelse 
+2017-02-10 10:34:31,837 INFO  [Log] selecting option from suggestionlist Passed 
+2017-02-10 10:34:31,861 INFO  [Log] Executing selecting option from suggestionlist which is (32) line of Test Steps sheet 
+2017-02-10 10:34:31,862 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:34:35,362 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:34:35,385 INFO  [Log] Executing wait for the page to load which is (33) line of Test Steps sheet 
+2017-02-10 10:34:35,385 INFO  [Log] Entering the text in createrecord_street_name 
+2017-02-10 10:34:35,449 INFO  [Log] Enter Street Name Passed 
+2017-02-10 10:34:35,473 INFO  [Log] Executing Enter Street Name which is (34) line of Test Steps sheet 
+2017-02-10 10:34:35,473 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:34:38,974 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:34:39,000 INFO  [Log] Executing wait for the page to load which is (35) line of Test Steps sheet 
+2017-02-10 10:34:39,001 INFO  [Log] Entering the text in createrecord_postal_code 
+2017-02-10 10:34:39,071 INFO  [Log] Enter Postal Code Passed 
+2017-02-10 10:34:39,096 INFO  [Log] Executing Enter Postal Code which is (36) line of Test Steps sheet 
+2017-02-10 10:34:39,096 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:34:42,596 INFO  [Log] wait Passed 
+2017-02-10 10:34:42,674 INFO  [Log] Executing wait which is (37) line of Test Steps sheet 
+2017-02-10 10:34:42,674 INFO  [Log] Clicking on Web Element createrecord_btn_click_lookup_address 
+2017-02-10 10:34:42,775 INFO  [Log] Click Look Up Address Passed 
+2017-02-10 10:34:42,800 INFO  [Log] Executing Click Look Up Address which is (38) line of Test Steps sheet 
+2017-02-10 10:34:42,800 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:34:46,300 INFO  [Log] wait Passed 
+2017-02-10 10:34:46,356 INFO  [Log] Executing wait which is (39) line of Test Steps sheet 
+2017-02-10 10:34:46,356 INFO  [Log] Clicking on Web Element createrecord_btn-clcik_select 
+2017-02-10 10:34:48,542 INFO  [Log] Click Select Passed 
+2017-02-10 10:34:48,568 INFO  [Log] Executing Click Select which is (40) line of Test Steps sheet 
+2017-02-10 10:34:48,568 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:34:52,068 INFO  [Log] wait Passed 
+2017-02-10 10:34:52,122 INFO  [Log] Executing wait which is (41) line of Test Steps sheet 
+2017-02-10 10:34:52,122 INFO  [Log] Clicking on Web Element createrecord_search_customer 
+2017-02-10 10:34:52,204 INFO  [Log] Click on Search for a customer Passed 
+2017-02-10 10:34:52,234 INFO  [Log] Executing Click on Search for a customer which is (42) line of Test Steps sheet 
+2017-02-10 10:34:52,234 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:34:55,734 INFO  [Log] wait Passed 
+2017-02-10 10:34:55,786 INFO  [Log] Executing wait which is (43) line of Test Steps sheet 
+2017-02-10 10:34:55,786 INFO  [Log] accepting alert  
+2017-02-10 10:34:55,815 INFO  [Log] Accept the alert Passed 
+2017-02-10 10:34:55,839 INFO  [Log] Executing Accept the alert which is (44) line of Test Steps sheet 
+2017-02-10 10:34:55,839 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:34:59,340 INFO  [Log] wait Passed 
+2017-02-10 10:34:59,413 INFO  [Log] Executing wait which is (45) line of Test Steps sheet 
+2017-02-10 10:34:59,432 INFO  [Log] check whether the customer search title is present or not Passed 
+2017-02-10 10:34:59,457 INFO  [Log] TC_1.004_Search for a customer message from create screen passed 
+2017-02-10 10:34:59,487 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-10 10:34:59,487 INFO  [Log] X 
+2017-02-10 10:34:59,508 INFO  [Log] RunMode for test case TC_1.005_Create new customer is Yes 
+2017-02-10 10:34:59,508 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:34:59,508 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:34:59,508 INFO  [Log] -------------------------- TC_1.005_Create new customer--------------------------- 
+2017-02-10 10:34:59,508 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:34:59,508 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:34:59,508 INFO  [Log] Executing check whether the customer search title is present or not which is (46) line of Test Steps sheet 
+2017-02-10 10:34:59,508 INFO  [Log] Navigating to the site 
+2017-02-10 10:35:00,156 INFO  [Log] Open CMD Application Passed 
+2017-02-10 10:35:00,184 INFO  [Log] Executing Open CMD Application which is (47) line of Test Steps sheet 
+2017-02-10 10:35:00,184 INFO  [Log] Clicking on Web Element btn_SearchCust 
+2017-02-10 10:35:00,971 INFO  [Log] click on Search for a Customer
+ button Passed 
+2017-02-10 10:35:00,999 INFO  [Log] Executing click on Search for a Customer
+ button which is (48) line of Test Steps sheet 
+2017-02-10 10:35:00,999 INFO  [Log] Entering the text in txtbx_UniqueCustCode 
+2017-02-10 10:35:01,324 INFO  [Log] Enter  Unique Customer Code Passed 
+2017-02-10 10:35:01,351 INFO  [Log] Executing Enter  Unique Customer Code which is (49) line of Test Steps sheet 
+2017-02-10 10:35:01,351 INFO  [Log] Clicking on Web Element btn_SearchUniqueCode 
+2017-02-10 10:35:03,352 INFO  [Log] click Search button Passed 
+2017-02-10 10:35:03,384 INFO  [Log] Executing click Search button which is (50) line of Test Steps sheet 
+2017-02-10 10:35:03,384 INFO  [Log] Clicking on Web Element btn_create_new_record 
+2017-02-10 10:35:04,536 INFO  [Log] Click Create a new record Passed 
+2017-02-10 10:35:04,560 INFO  [Log] Executing Click Create a new record which is (51) line of Test Steps sheet 
+2017-02-10 10:35:04,560 INFO  [Log] Entering the text in createrecord_enter_trading_name 
+2017-02-10 10:35:04,920 INFO  [Log] Enter Trading Name Passed 
+2017-02-10 10:35:04,943 INFO  [Log] Executing Enter Trading Name which is (52) line of Test Steps sheet 
+2017-02-10 10:35:04,943 INFO  [Log] Waiting for the page to load after invisibility of the grey screen... 
+2017-02-10 10:35:15,065 INFO  [Log] wait Passed 
+2017-02-10 10:35:15,109 INFO  [Log] Executing wait which is (53) line of Test Steps sheet 
+2017-02-10 10:35:15,109 INFO  [Log] Entering the text in createrecord_country_name 
+2017-02-10 10:35:15,234 INFO  [Log] Enter Country Passed 
+2017-02-10 10:35:15,261 INFO  [Log] Executing Enter Country which is (54) line of Test Steps sheet 
+2017-02-10 10:35:15,261 INFO  [Log] Selecting the option from createrecord_sgstn_country_denmark 
+2017-02-10 10:35:18,436 INFO  [Log] selecting option from suggestionlist Passed 
+2017-02-10 10:35:18,466 INFO  [Log] Executing selecting option from suggestionlist which is (55) line of Test Steps sheet 
+2017-02-10 10:35:18,466 INFO  [Log] Waiting for the page to load after invisibility of the grey screen... 
+2017-02-10 10:35:29,562 INFO  [Log] wait Passed 
+2017-02-10 10:35:29,603 INFO  [Log] Executing wait which is (56) line of Test Steps sheet 
+2017-02-10 10:35:29,603 INFO  [Log] Entering the text in createrecord_city_name 
+2017-02-10 10:35:29,697 INFO  [Log] Enter City Passed 
+2017-02-10 10:35:29,722 INFO  [Log] Executing Enter City which is (57) line of Test Steps sheet 
+2017-02-10 10:35:29,722 INFO  [Log] wait for some time Passed 
+2017-02-10 10:35:29,747 INFO  [Log] Executing wait for some time which is (58) line of Test Steps sheet 
+2017-02-10 10:35:29,747 INFO  [Log] Selecting the option from createrecord_sgstn_city_fakse 
+2017-02-10 10:35:32,867 INFO  [Log] selecting option from suggestionlist Passed 
+2017-02-10 10:35:32,890 INFO  [Log] Executing selecting option from suggestionlist which is (59) line of Test Steps sheet 
+2017-02-10 10:35:32,891 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:35:36,391 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:35:36,445 INFO  [Log] Executing wait for the page to load which is (60) line of Test Steps sheet 
+2017-02-10 10:35:36,445 INFO  [Log] Entering the text in createrecord_street_name 
+2017-02-10 10:35:36,519 INFO  [Log] Enter Street Name Passed 
+2017-02-10 10:35:36,543 INFO  [Log] Executing Enter Street Name which is (61) line of Test Steps sheet 
+2017-02-10 10:35:36,543 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:35:40,044 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:35:40,109 INFO  [Log] Executing wait for the page to load which is (62) line of Test Steps sheet 
+2017-02-10 10:35:40,109 INFO  [Log] Entering the text in createrecord_postal_code 
+2017-02-10 10:35:40,194 INFO  [Log] Enter Postal Code Passed 
+2017-02-10 10:35:40,220 INFO  [Log] Executing Enter Postal Code which is (63) line of Test Steps sheet 
+2017-02-10 10:35:40,220 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:35:43,720 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:35:43,773 INFO  [Log] Executing wait for the page to load which is (64) line of Test Steps sheet 
+2017-02-10 10:35:43,773 INFO  [Log] Clicking on Web Element createrecord_btn_click_lookup_address 
+2017-02-10 10:35:43,862 INFO  [Log] Click Look Up Address Passed 
+2017-02-10 10:35:43,887 INFO  [Log] Executing Click Look Up Address which is (65) line of Test Steps sheet 
+2017-02-10 10:35:43,887 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:35:47,387 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:35:47,417 INFO  [Log] Executing wait for the page to load which is (66) line of Test Steps sheet 
+2017-02-10 10:35:47,418 INFO  [Log] Clicking on Web Element createrecord_btn-clcik_select 
+2017-02-10 10:35:47,512 INFO  [Log] Click Select Passed 
+2017-02-10 10:35:47,538 INFO  [Log] Executing Click Select which is (67) line of Test Steps sheet 
+2017-02-10 10:35:47,538 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:35:51,039 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:35:51,092 INFO  [Log] Executing wait for the page to load which is (68) line of Test Steps sheet 
+2017-02-10 10:35:51,092 INFO  [Log] Clicking on Web Element createrecord_submit_record 
+2017-02-10 10:35:51,183 INFO  [Log] click submit record Passed 
+2017-02-10 10:35:51,207 INFO  [Log] Executing click submit record which is (69) line of Test Steps sheet 
+2017-02-10 10:35:51,208 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:35:54,708 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:35:54,754 INFO  [Log] Executing wait for the page to load which is (70) line of Test Steps sheet 
+2017-02-10 10:35:56,917 INFO  [Log] verify whether the successful record submission is coming Passed 
+2017-02-10 10:35:56,955 INFO  [Log] TC_1.005_Create new customer passed 
+2017-02-10 10:35:56,977 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-10 10:35:56,977 INFO  [Log] X 
+2017-02-10 10:35:56,996 INFO  [Log] RunMode for test case TC_1.006_checking create record page contains all the fields is Yes 
+2017-02-10 10:35:56,996 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:35:56,996 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:35:56,996 INFO  [Log] -------------------------- TC_1.006_checking create record page contains all the fields--------------------------- 
+2017-02-10 10:35:56,996 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:35:56,996 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:35:56,996 INFO  [Log] Executing verify whether the successful record submission is coming which is (71) line of Test Steps sheet 
+2017-02-10 10:35:56,996 INFO  [Log] Navigating to the site 
+2017-02-10 10:35:57,625 INFO  [Log] Open CMD Application Passed 
+2017-02-10 10:35:57,653 INFO  [Log] Executing Open CMD Application which is (72) line of Test Steps sheet 
+2017-02-10 10:35:57,653 INFO  [Log] Clicking on Web Element btn_SearchCust 
+2017-02-10 10:35:58,406 INFO  [Log] click on Search for a Customer
+ button Passed 
+2017-02-10 10:35:58,432 INFO  [Log] Executing click on Search for a Customer
+ button which is (73) line of Test Steps sheet 
+2017-02-10 10:35:58,433 INFO  [Log] Entering the text in txtbx_UniqueCustCode 
+2017-02-10 10:35:58,720 INFO  [Log] Enter  Unique Customer Code Passed 
+2017-02-10 10:35:58,747 INFO  [Log] Executing Enter  Unique Customer Code which is (74) line of Test Steps sheet 
+2017-02-10 10:35:58,747 INFO  [Log] Clicking on Web Element btn_SearchUniqueCode 
+2017-02-10 10:35:59,327 INFO  [Log] click Search button Passed 
+2017-02-10 10:35:59,354 INFO  [Log] Executing click Search button which is (75) line of Test Steps sheet 
+2017-02-10 10:35:59,355 INFO  [Log] Clicking on Web Element btn_create_new_record 
+2017-02-10 10:36:00,337 INFO  [Log] Click Create a new record Passed 
+2017-02-10 10:36:00,360 INFO  [Log] Executing Click Create a new record which is (76) line of Test Steps sheet 
+2017-02-10 10:36:00,606 INFO  [Log] Check the Trading check box is there Passed 
+2017-02-10 10:36:00,648 INFO  [Log] Executing Check the Trading check box is there which is (77) line of Test Steps sheet 
+2017-02-10 10:36:00,648 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-02-10 10:36:00,663 INFO  [Log] Check the country text box is there Passed 
+2017-02-10 10:36:00,686 INFO  [Log] Executing Check the country text box is there which is (78) line of Test Steps sheet 
+2017-02-10 10:36:00,702 INFO  [Log] Check the city text box is there Passed 
+2017-02-10 10:36:00,724 INFO  [Log] Executing Check the city text box is there which is (79) line of Test Steps sheet 
+2017-02-10 10:36:00,724 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-02-10 10:36:00,739 INFO  [Log] Check the street name text box is there Passed 
+2017-02-10 10:36:00,765 INFO  [Log] Executing Check the street name text box is there which is (80) line of Test Steps sheet 
+2017-02-10 10:36:00,780 INFO  [Log] Check the postal code text box is there Passed 
+2017-02-10 10:36:00,808 INFO  [Log] Executing Check the postal code text box is there which is (81) line of Test Steps sheet 
+2017-02-10 10:36:00,823 INFO  [Log] Check the city distric box is there Passed 
+2017-02-10 10:36:00,847 INFO  [Log] Executing Check the city distric box is there which is (82) line of Test Steps sheet 
+2017-02-10 10:36:00,863 INFO  [Log] Check the PO box is there Passed 
+2017-02-10 10:36:00,886 INFO  [Log] Executing Check the PO box is there which is (83) line of Test Steps sheet 
+2017-02-10 10:36:00,901 INFO  [Log] Check the region text box is there Passed 
+2017-02-10 10:36:00,923 INFO  [Log] TC_1.006_checking create record page contains all the fields passed 
+2017-02-10 10:36:00,946 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-10 10:36:00,946 INFO  [Log] X 
+2017-02-10 10:36:00,970 INFO  [Log] RunMode for test case TC_1.007_Region  Present Country postal code  Search is Yes 
+2017-02-10 10:36:00,970 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:36:00,970 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:36:00,970 INFO  [Log] -------------------------- TC_1.007_Region  Present Country postal code  Search--------------------------- 
+2017-02-10 10:36:00,970 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:36:00,970 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:36:00,970 INFO  [Log] Executing Check the region text box is there which is (84) line of Test Steps sheet 
+2017-02-10 10:36:00,971 INFO  [Log] Navigating to the site 
+2017-02-10 10:36:01,642 INFO  [Log] Open CMD Application Passed 
+2017-02-10 10:36:01,669 INFO  [Log] Executing Open CMD Application which is (85) line of Test Steps sheet 
+2017-02-10 10:36:01,670 INFO  [Log] Clicking on Web Element btn_SearchCust 
+2017-02-10 10:36:02,414 INFO  [Log] click on Search for a Customer
+ button Passed 
+2017-02-10 10:36:02,438 INFO  [Log] Executing click on Search for a Customer
+ button which is (86) line of Test Steps sheet 
+2017-02-10 10:36:02,438 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:36:05,938 INFO  [Log] wait for postal validation Passed 
+2017-02-10 10:36:05,987 INFO  [Log] Executing wait for postal validation which is (87) line of Test Steps sheet 
+2017-02-10 10:36:05,988 INFO  [Log] Entering the text in search_Country 
+2017-02-10 10:36:06,082 INFO  [Log] Give country name Passed 
+2017-02-10 10:36:06,105 INFO  [Log] Executing Give country name which is (88) line of Test Steps sheet 
+2017-02-10 10:36:06,105 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:36:09,607 INFO  [Log] wait for postal validation Passed 
+2017-02-10 10:36:09,667 INFO  [Log] Executing wait for postal validation which is (89) line of Test Steps sheet 
+2017-02-10 10:36:09,667 INFO  [Log] Selecting the option from search_country_India 
+2017-02-10 10:36:12,840 INFO  [Log] Select india from the suggestions Passed 
+2017-02-10 10:36:12,865 INFO  [Log] Executing Select india from the suggestions which is (90) line of Test Steps sheet 
+2017-02-10 10:36:12,865 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:36:16,365 INFO  [Log] wait for postal validation Passed 
+2017-02-10 10:36:16,421 INFO  [Log] Executing wait for postal validation which is (91) line of Test Steps sheet 
+2017-02-10 10:36:16,421 INFO  [Log] Entering the text in search_postal_code 
+2017-02-10 10:36:16,478 INFO  [Log] Give postal code Passed 
+2017-02-10 10:36:16,516 INFO  [Log] Executing Give postal code which is (92) line of Test Steps sheet 
+2017-02-10 10:36:16,516 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:36:20,017 INFO  [Log] wait for postal validation Passed 
+2017-02-10 10:36:20,072 INFO  [Log] Executing wait for postal validation which is (93) line of Test Steps sheet 
+2017-02-10 10:36:20,072 INFO  [Log] Clicking on Web Element search_continue_bttn 
+2017-02-10 10:36:20,148 INFO  [Log] click continue button Passed 
+2017-02-10 10:36:20,171 INFO  [Log] Executing click continue button which is (94) line of Test Steps sheet 
+2017-02-10 10:36:20,171 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:36:23,671 INFO  [Log] wait for postal validation Passed 
+2017-02-10 10:36:23,693 INFO  [Log] Executing wait for postal validation which is (95) line of Test Steps sheet 
+2017-02-10 10:36:23,711 INFO  [Log] Validate the search name text box is there Passed 
+2017-02-10 10:36:23,732 INFO  [Log] Executing Validate the search name text box is there which is (96) line of Test Steps sheet 
+2017-02-10 10:36:23,733 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:36:27,233 INFO  [Log] wait for postal validation Passed 
+2017-02-10 10:36:27,287 INFO  [Log] TC_1.007_Region  Present Country postal code  Search passed 
+2017-02-10 10:36:27,314 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-10 10:36:27,314 INFO  [Log] X 
+2017-02-10 10:36:27,330 INFO  [Log] RunMode for test case TC_1.008_create customer page  Back Arrow message is Yes 
+2017-02-10 10:36:27,331 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:36:27,331 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:36:27,331 INFO  [Log] -------------------------- TC_1.008_create customer page  Back Arrow message--------------------------- 
+2017-02-10 10:36:27,331 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:36:27,331 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:36:27,331 INFO  [Log] Executing wait for postal validation which is (97) line of Test Steps sheet 
+2017-02-10 10:36:27,331 INFO  [Log] Navigating to the site 
+2017-02-10 10:36:27,985 INFO  [Log] Open CMD Application Passed 
+2017-02-10 10:36:28,008 INFO  [Log] Executing Open CMD Application which is (98) line of Test Steps sheet 
+2017-02-10 10:36:28,008 INFO  [Log] Clicking on Web Element btn_SearchCust 
+2017-02-10 10:36:28,818 INFO  [Log] click on Search for a Customer
+ button Passed 
+2017-02-10 10:36:28,850 INFO  [Log] Executing click on Search for a Customer
+ button which is (99) line of Test Steps sheet 
+2017-02-10 10:36:28,850 INFO  [Log] Entering the text in txtbx_UniqueCustCode 
+2017-02-10 10:36:29,122 INFO  [Log] Enter  Unique Customer Code Passed 
+2017-02-10 10:36:29,145 INFO  [Log] Executing Enter  Unique Customer Code which is (100) line of Test Steps sheet 
+2017-02-10 10:36:29,145 INFO  [Log] Clicking on Web Element btn_SearchUniqueCode 
+2017-02-10 10:36:31,217 INFO  [Log] click Search button Passed 
+2017-02-10 10:36:31,244 INFO  [Log] Executing click Search button which is (101) line of Test Steps sheet 
+2017-02-10 10:36:31,244 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:36:34,744 INFO  [Log] wait for postal validation Passed 
+2017-02-10 10:36:34,807 INFO  [Log] Executing wait for postal validation which is (102) line of Test Steps sheet 
+2017-02-10 10:36:34,807 INFO  [Log] Clicking on Web Element btn_create_new_record 
+2017-02-10 10:36:35,571 INFO  [Log] Click Create a new record Passed 
+2017-02-10 10:36:35,594 INFO  [Log] Executing Click Create a new record which is (103) line of Test Steps sheet 
+2017-02-10 10:36:35,594 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:36:39,095 INFO  [Log] wait for postal validation Passed 
+2017-02-10 10:36:39,155 INFO  [Log] Executing wait for postal validation which is (104) line of Test Steps sheet 
+2017-02-10 10:36:39,155 INFO  [Log] Entering the text in createrecord_enter_trading_name 
+2017-02-10 10:36:39,257 INFO  [Log] Enter Trading Name Passed 
+2017-02-10 10:36:39,283 INFO  [Log] Executing Enter Trading Name which is (105) line of Test Steps sheet 
+2017-02-10 10:36:39,283 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:36:42,783 INFO  [Log] wait for postal validation Passed 
+2017-02-10 10:36:42,856 INFO  [Log] Executing wait for postal validation which is (106) line of Test Steps sheet 
+2017-02-10 10:36:42,856 INFO  [Log] going back from current window  
+2017-02-10 10:36:42,891 INFO  [Log] press the go back button Passed 
+2017-02-10 10:36:42,916 INFO  [Log] Executing press the go back button which is (107) line of Test Steps sheet 
+2017-02-10 10:36:42,916 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:36:46,416 INFO  [Log] wait for postal validation Passed 
+2017-02-10 10:36:46,477 INFO  [Log] Executing wait for postal validation which is (108) line of Test Steps sheet 
+2017-02-10 10:36:46,478 INFO  [Log] accepting alert  
+2017-02-10 10:36:46,520 INFO  [Log] accept the alert the  Passed 
+2017-02-10 10:36:46,555 INFO  [Log] Executing accept the alert the  which is (109) line of Test Steps sheet 
+2017-02-10 10:36:46,555 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:36:50,056 INFO  [Log] wait for postal validation Passed 
+2017-02-10 10:36:50,088 INFO  [Log] TC_1.008_create customer page  Back Arrow message passed 
+2017-02-10 10:36:50,110 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-10 10:36:50,111 INFO  [Log] X 
+2017-02-10 10:36:50,130 INFO  [Log] RunMode for test case TC_1.009_Edit customer from create customer screen is Yes 
+2017-02-10 10:36:50,130 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:36:50,130 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:36:50,130 INFO  [Log] -------------------------- TC_1.009_Edit customer from create customer screen--------------------------- 
+2017-02-10 10:36:50,130 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:36:50,130 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:36:50,131 INFO  [Log] Executing wait for postal validation which is (110) line of Test Steps sheet 
+2017-02-10 10:36:50,131 INFO  [Log] Navigating to the site 
+2017-02-10 10:36:50,809 INFO  [Log] Open CMD Application Passed 
+2017-02-10 10:36:50,835 INFO  [Log] Executing Open CMD Application which is (111) line of Test Steps sheet 
+2017-02-10 10:36:50,835 INFO  [Log] Clicking on Web Element btn_SearchCust 
+2017-02-10 10:36:51,622 INFO  [Log] click on Search for a Customer
+ button Passed 
+2017-02-10 10:36:51,652 INFO  [Log] Executing click on Search for a Customer
+ button which is (112) line of Test Steps sheet 
+2017-02-10 10:36:51,652 INFO  [Log] Entering the text in txtbx_UniqueCustCode 
+2017-02-10 10:36:51,933 INFO  [Log] Enter  Unique Customer Code Passed 
+2017-02-10 10:36:51,956 INFO  [Log] Executing Enter  Unique Customer Code which is (113) line of Test Steps sheet 
+2017-02-10 10:36:51,956 INFO  [Log] Clicking on Web Element btn_SearchUniqueCode 
+2017-02-10 10:36:53,379 INFO  [Log] click Search button Passed 
+2017-02-10 10:36:53,402 INFO  [Log] Executing click Search button which is (114) line of Test Steps sheet 
+2017-02-10 10:36:53,402 INFO  [Log] Clicking on Web Element btn_create_new_record 
+2017-02-10 10:36:54,403 INFO  [Log] Click Create a new record Passed 
+2017-02-10 10:36:54,426 INFO  [Log] Executing Click Create a new record which is (115) line of Test Steps sheet 
+2017-02-10 10:36:54,426 INFO  [Log] Entering the text in createrecord_enter_trading_name 
+2017-02-10 10:36:54,700 INFO  [Log] Enter Trading Name Passed 
+2017-02-10 10:36:54,725 INFO  [Log] Executing Enter Trading Name which is (116) line of Test Steps sheet 
+2017-02-10 10:36:54,725 INFO  [Log] Waiting for the page to load after invisibility of the grey screen... 
+2017-02-10 10:37:04,757 INFO  [Log] wait Passed 
+2017-02-10 10:37:04,806 INFO  [Log] Executing wait which is (117) line of Test Steps sheet 
+2017-02-10 10:37:04,806 INFO  [Log] Entering the text in createrecord_country_name 
+2017-02-10 10:37:04,934 INFO  [Log] Enter Country Passed 
+2017-02-10 10:37:04,956 INFO  [Log] Executing Enter Country which is (118) line of Test Steps sheet 
+2017-02-10 10:37:04,956 INFO  [Log] Selecting the option from createrecord_sgstn_country_denmark 
+2017-02-10 10:37:08,139 INFO  [Log] selecting option from suggestionlist Passed 
+2017-02-10 10:37:08,163 INFO  [Log] Executing selecting option from suggestionlist which is (119) line of Test Steps sheet 
+2017-02-10 10:37:08,163 INFO  [Log] Waiting for the page to load after invisibility of the grey screen... 
+2017-02-10 10:37:19,347 INFO  [Log] wait Passed 
+2017-02-10 10:37:19,401 INFO  [Log] Executing wait which is (120) line of Test Steps sheet 
+2017-02-10 10:37:19,401 INFO  [Log] Entering the text in createrecord_city_name 
+2017-02-10 10:37:19,485 INFO  [Log] Enter City Passed 
+2017-02-10 10:37:19,509 INFO  [Log] Executing Enter City which is (121) line of Test Steps sheet 
+2017-02-10 10:37:19,509 INFO  [Log] wait for some time Passed 
+2017-02-10 10:37:19,531 INFO  [Log] Executing wait for some time which is (122) line of Test Steps sheet 
+2017-02-10 10:37:19,531 INFO  [Log] Selecting the option from createrecord_sgstn_city_fakse 
+2017-02-10 10:37:22,658 INFO  [Log] selecting option from suggestionlist Passed 
+2017-02-10 10:37:22,680 INFO  [Log] Executing selecting option from suggestionlist which is (123) line of Test Steps sheet 
+2017-02-10 10:37:22,680 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:37:26,180 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:37:26,236 INFO  [Log] Executing wait for the page to load which is (124) line of Test Steps sheet 
+2017-02-10 10:37:26,236 INFO  [Log] Entering the text in createrecord_street_name 
+2017-02-10 10:37:26,299 INFO  [Log] Enter Street Name Passed 
+2017-02-10 10:37:26,322 INFO  [Log] Executing Enter Street Name which is (125) line of Test Steps sheet 
+2017-02-10 10:37:26,322 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:37:29,823 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:37:29,875 INFO  [Log] Executing wait for the page to load which is (126) line of Test Steps sheet 
+2017-02-10 10:37:29,875 INFO  [Log] Entering the text in createrecord_postal_code 
+2017-02-10 10:37:29,940 INFO  [Log] Enter Postal Code Passed 
+2017-02-10 10:37:29,962 INFO  [Log] Executing Enter Postal Code which is (127) line of Test Steps sheet 
+2017-02-10 10:37:29,962 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:37:33,462 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:37:33,529 INFO  [Log] Executing wait for the page to load which is (128) line of Test Steps sheet 
+2017-02-10 10:37:33,529 INFO  [Log] Clicking on Web Element createrecord_btn_click_lookup_address 
+2017-02-10 10:37:33,600 INFO  [Log] Click Look Up Address Passed 
+2017-02-10 10:37:33,624 INFO  [Log] Executing Click Look Up Address which is (129) line of Test Steps sheet 
+2017-02-10 10:37:33,624 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:37:37,124 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:37:37,185 INFO  [Log] Executing wait for the page to load which is (130) line of Test Steps sheet 
+2017-02-10 10:37:37,185 INFO  [Log] Clicking on Web Element createrecord_btn-clcik_select 
+2017-02-10 10:37:37,270 INFO  [Log] Click Select Passed 
+2017-02-10 10:37:37,293 INFO  [Log] Executing Click Select which is (131) line of Test Steps sheet 
+2017-02-10 10:37:37,293 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:37:40,794 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:37:40,852 INFO  [Log] Executing wait for the page to load which is (132) line of Test Steps sheet 
+2017-02-10 10:37:40,852 INFO  [Log] Clicking on Web Element createrecord_editaddress_bttn 
+2017-02-10 10:37:40,923 INFO  [Log] Click edit record button Passed 
+2017-02-10 10:37:40,945 INFO  [Log] Executing Click edit record button which is (133) line of Test Steps sheet 
+2017-02-10 10:37:40,945 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:37:44,445 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:37:44,502 INFO  [Log] Executing wait for the page to load which is (134) line of Test Steps sheet 
+2017-02-10 10:37:44,502 INFO  [Log] Clicking on Web Element createrecord_continue_bttn 
+2017-02-10 10:37:44,575 INFO  [Log] click continue button Passed 
+2017-02-10 10:37:44,599 INFO  [Log] Executing click continue button which is (135) line of Test Steps sheet 
+2017-02-10 10:37:44,599 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:37:48,100 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:37:48,151 INFO  [Log] Executing wait for the page to load which is (136) line of Test Steps sheet 
+2017-02-10 10:37:48,151 INFO  [Log] Clicking on Web Element createrecord_confirm_box 
+2017-02-10 10:37:48,226 INFO  [Log] click confirm Passed 
+2017-02-10 10:37:48,251 INFO  [Log] Executing click confirm which is (137) line of Test Steps sheet 
+2017-02-10 10:37:48,251 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:37:51,751 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:37:51,799 INFO  [Log] Executing wait for the page to load which is (138) line of Test Steps sheet 
+2017-02-10 10:37:51,799 INFO  [Log] Clicking on Web Element createrecord_submit_record 
+2017-02-10 10:37:51,877 INFO  [Log] click continue button Passed 
+2017-02-10 10:37:51,900 INFO  [Log] Executing click continue button which is (139) line of Test Steps sheet 
+2017-02-10 10:37:51,900 INFO  [Log] Waiting for the page to load... 
+2017-02-10 10:37:55,400 INFO  [Log] wait for the page to load Passed 
+2017-02-10 10:37:55,431 INFO  [Log] Executing wait for the page to load which is (140) line of Test Steps sheet 
+2017-02-10 10:38:00,308 INFO  [Log] verify whether the successful record submission is coming Passed 
+2017-02-10 10:38:00,331 INFO  [Log] TC_1.009_Edit customer from create customer screen passed 
+2017-02-10 10:38:00,352 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-10 10:38:00,352 INFO  [Log] X 
+2017-02-10 10:38:00,369 INFO  [Log] RunMode for test case TC_1.010_Return search and going forward in search is Yes 
+2017-02-10 10:38:00,369 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:38:00,369 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:38:00,369 INFO  [Log] -------------------------- TC_1.010_Return search and going forward in search--------------------------- 
+2017-02-10 10:38:00,369 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:38:00,369 INFO  [Log] **************************************************************************************** 
+2017-02-10 10:38:00,369 INFO  [Log] Executing verify whether the successful record submission is coming which is (141) line of Test Steps sheet 
+2017-02-10 10:38:00,369 INFO  [Log] Navigating to the site 
+2017-02-10 10:38:01,256 INFO  [Log] Open CMD Application Passed 
+2017-02-10 10:38:01,283 INFO  [Log] Executing Open CMD Application which is (142) line of Test Steps sheet 
+2017-02-10 10:38:01,283 INFO  [Log] Clicking on Web Element btn_SearchCust 
+2017-02-10 10:38:01,987 INFO  [Log] click on Search for a Customer
+ button Passed 
+2017-02-10 10:38:02,014 INFO  [Log] Executing click on Search for a Customer
+ button which is (143) line of Test Steps sheet 
+2017-02-10 10:38:02,015 INFO  [Log] Entering the text in txtbx_UniqueCustCode 
+2017-02-10 10:38:02,435 INFO  [Log] Enter  Unique Customer Code Passed 
+2017-02-10 10:38:02,458 INFO  [Log] Executing Enter  Unique Customer Code which is (144) line of Test Steps sheet 
+2017-02-10 10:38:02,458 INFO  [Log] Clicking on Web Element btn_SearchUniqueCode 
+2017-02-10 10:38:03,073 INFO  [Log] click Search button Passed 
+2017-02-10 10:38:03,100 INFO  [Log] Executing click Search button which is (145) line of Test Steps sheet 
+2017-02-10 10:38:03,100 INFO  [Log] Clicking on Web Element searchrecord_backbutton 
+2017-02-10 10:38:04,032 INFO  [Log] Go back from this page Passed 
+2017-02-10 10:38:04,055 INFO  [Log] Executing Go back from this page which is (146) line of Test Steps sheet 
+2017-02-10 10:38:04,055 INFO  [Log] Clicking on Web Element btn_SearchUniqueCode 
+2017-02-10 10:38:04,923 INFO  [Log] click Search button Passed 
+2017-02-10 10:38:04,949 INFO  [Log] Executing click Search button which is (147) line of Test Steps sheet 
+2017-02-10 10:38:04,950 INFO  [Log] Clicking on Web Element btn_create_new_record 
+2017-02-10 10:38:05,894 INFO  [Log] Give create new record Passed 
+2017-02-10 10:38:05,916 INFO  [Log] Executing Give create new record which is (148) line of Test Steps sheet 
+2017-02-10 10:38:06,153 INFO  [Log] verify whether the country text box is there Passed 
+2017-02-10 10:38:06,179 INFO  [Log] TC_1.010_Return search and going forward in search passed 
+2017-02-10 10:38:06,203 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-10 10:38:06,203 INFO  [Log] X 
+2017-02-10 10:38:06,218 INFO  [Log] Closing the browser 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="22534" started-at="2017-02-10T04:43:36Z" finished-at="2017-02-10T04:43:58Z">
+    <groups>
+    </groups>
+    <test name="Regression-Functional Tests" duration-ms="22534" started-at="2017-02-10T04:43:36Z" finished-at="2017-02-10T04:43:58Z">
+      <class name="net.apmoller.crb.portal.executionEngine.TestRunner">
+        <test-method status="PASS" signature="regressionSuite()[pri:0, instance:net.apmoller.crb.portal.executionEngine.TestRunner@4f51b3e0]" name="regressionSuite" duration-ms="22528" started-at="2017-02-10T10:13:36Z" finished-at="2017-02-10T10:13:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regressionSuite -->
+      </class> <!-- net.apmoller.crb.portal.executionEngine.TestRunner -->
+    </test> <!-- Regression-Functional Tests -->
+  </suite> <!-- Regression Suite -->
+</testng-results>

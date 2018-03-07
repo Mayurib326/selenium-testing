@@ -1,0 +1,93 @@
+Important URL's
+
+http://learn-automation.com/launch-chrome-browser-using-selenium-webdriver/
+http://learn-automation.com/cross-browser-testing-using-selenium-webdriver/
+http://www.seleniumeasy.com/selenium-tutorials/read-data-from-properties-file-using-java-selenium
+https://www.codeeval.com/companies/
+https://www.codechef.com/
+https://github.com/seleniumhq/selenium-google-code-issue-archive/issues/6760
+https://www.google.co.in/search?q=org.openqa.selenium.WebDriverException%3A&oq=org.openqa.selenium.WebDriverException%3A&aqs=chrome..69i57j0l5.727j0j7&sourceid=chrome&ie=UTF-8#safe=active&q=unable+to+bind+to+locking+port+7054+within+45000+ms+in+selenium
+http://stackoverflow.com/questions/9609066/getting-following-exception-org-apache-bcel-verifier-exc-assertionviolatedexcept
+http://www.java2s.com/Code/Jar/s/Downloadseleniumfirefoxdriver20a5jar.htm
+http://www.seleniumhq.org/download/
+http://www.guru99.com/first-webdriver-script.html
+http://www.guru99.com/accessing-forms-in-webdriver.htmlsalenium by arun
+https://jar-download.com/?search_box=reportng+
+http://toolsqa.wpengine.com/selenium-webdriver/switch-commands/
+http://www.guru99.com/alert-popup-handling-selenium.html
+https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=8&cad=rja&uact=8&ved=0ahUKEwjvpNfYyPDRAhWBKJQKHTm0AmcQtwIISjAH&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D5PzL3T9t2R0&usg=AFQjCNFa0HMHwKn_YsURWwUAxkLln0mF5g&bvm=bv.146073913,d.dGc
+
+
+
+Things I have to learn
+
+1)
+
+  driver.get(baseUrl);
+        List<WebElement> linkElements = driver.findElements(By.tagName("a"));
+        String[] linkTexts = new String[linkElements.size()];
+        int i = 0;
+
+        //extract the link texts of each link element
+        for (WebElement e : linkElements) {
+            linkTexts[i] = e.getText();
+            i++;
+        }
+
+
+
+
+
+5)Property file creation
+
+
+
+
+Maersk customer search URL
+
+BR00339905 
+
+http://uicmd1.pp.ml.apmoller.net:16410/md/customer/
+
+.//*[@id='custrefTypesSearchId']/option[4]
+
+//*[@id="custRefValId"]
+//*[@id='submitBtnId']
+//STRONG[@class='tt-highlight'][text()='DENMARK']
+//*[@id="searchForm"]/div/div[1]/div/h1
+//*[@id="submitButtonId"]
+
+Postman
+
+
+
+cmd_search_bttn= .//*[@id='landingSearchButtonId']
+cmd_enter_customer_URN=.//*[@id='uniqueCustomernumberSearchBoxId']
+cmd_customer_search=.//*[@id='customerSearchButtonId']
+cmd_verify=.//*[@id='editotherDetailsId']
+//*[@id="submitButtonId"]
+ /html/body/div[2]/div[1]/div/ul[1]/li/a
+//*[@id="editotherDetailsId"]
+
+
+extended for loop
+
+ for (String handle : driver.getWindowHandles()) {
+ 
+    driver.switchTo().window(handle);}
+
+iterator
+ Iterator<String> i1=s1.iterator();	
+
+set
+  
+Set<String> s1=driver.getWindowHandles();	
+
+refer below link for checking the iterator and set
+
+http://www.guru99.com/alert-popup-handling-selenium.html
+
+
+
+
+
